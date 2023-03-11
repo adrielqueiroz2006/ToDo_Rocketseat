@@ -1,0 +1,130 @@
+.tasksForm {
+  width: 100%;
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+}
+
+.tasksForm textarea {
+  width: 39.875rem;
+  height: 3.375rem;
+  background: var(--gray-500);
+  color: var(--gray-300);
+  border: 1px solid var(--gray-700);
+  border-radius: 8px;
+  padding: 1rem;
+  resize: none;
+  font-size: 1rem;
+  gap: 0.5rem;
+}
+
+.tasksForm textarea:focus {
+  outline: none !important;
+  border: 1px solid var(--purple);
+  color: var(--gray-100);
+}
+
+.addTasks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: -4.7rem;
+  gap: 0.5rem;
+}
+
+.addTasks button {
+  width: 5.625rem;
+  height: 3.25rem;
+  background: var(--blue-dark);
+  color: var(--gray-100);
+  border: none;
+  border-radius: 8px;
+  font-size: 0.875rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  gap: 0.5rem;
+}
+
+.addTasks button:hover {
+  background-color: var(--blue);
+}
+
+.tasks {
+  width: 46rem;
+  height: 28.1875rem;
+  display: flex;
+  flex-direction: column;
+  /* align-items: ; */
+  justify-content: center;
+  padding: 0px;
+  gap: 1.5rem;
+  /* border: 1px solid red; */
+}
+
+.createdAndCompletedTasks {
+  width: 46rem;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.875rem;
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+  
+}
+
+.pBlue {
+  color: var(--blue);
+}
+
+.pPurple {
+  color: var(--purple);
+}
+
+.createdAndCompletedTasks p span {
+  gap: 0.625rem;
+  padding: 0.125rem 0.5rem;
+  background: var(--gray-400);
+  border-radius: 999px;
+  color: var(--gray-100);
+}
+
+.noTasks {
+  width: 46rem;
+  height: 50rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 4rem;
+  border-top: 1px solid var(--gray-400);
+  border-radius: 8px;
+}
+
+.noTasks span {
+  font-size: 1rem;
+  color: var(--gray-300);
+  font-weight: bold;
+  font-weight: 700;
+}
+
+.noTasks p {
+  font-size: 1rem;
+  color: var(--gray-300);
+  font-weight: 400;
+}
+
+.taskAlign {
+  display: flex;
+  justify-content: center;
+}
+
+.tasksToDo {
+  display: flex;
+  height: 50rem;
+  flex-direction: column;
+  overflow-y: auto;
+}

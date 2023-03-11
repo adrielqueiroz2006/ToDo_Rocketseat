@@ -1,0 +1,9 @@
+textarea{
+    background-color: var(--gray-500);
+    display: flex;
+    justify-content: center;
+    width: 46rem;
+    height: 3.375rem;
+    border: 1px solid var(--gray-700);
+    border-radius: 8px;
+}
